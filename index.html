@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day, Khushi! 🌹</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Roses Animation -->
+    <div class="floating-roses">
+        <img src="rose1.png" class="rose rose1">
+        <img src="rose2.png" class="rose rose2">
+        <img src="rose3.png" class="rose rose3">
+        <img src="rose4.png" class="rose rose4">
+    </div>
+
+    <div class="container">
+        <!-- Romantic Shayari -->
+        <h2>Wo gulab maang rhi h hamse,</h2>
+        <h2>Ab use kya jawab du 🤔</h2>
+        <h2>Jo hai gulab se bhi jada lajawab,</h2>
+        <h2>Aakhir use konsa gulab du 🙈🙈🎀</h2>
+
+        <button onclick="showSurprise()">Click for a Surprise</button>
+
+        <!-- Surprise Section -->
+        <div id="surprise" class="hidden">
+            <img src="bouquet.png" alt="Rose Bouquet">
+            <h2>You are my forever rose, Khushi! ❤️</h2>
+            <p>
+                My love, you are more beautiful than the most delicate rose,  
+                more mesmerizing than the sweetest fragrance,  
+                and more precious than any treasure in this world.  
+                Every moment with you feels like a dream I never want to wake up from.  
+                Your smile brightens my darkest days, and your voice is the sweetest melody.  
+                On this Rose Day, I give you my heart, just like a rose that will never fade.  
+                You are my forever, my love, my Khushi. 🌹❤️  
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surprise").classList.add("show");
+        }
+    </script>
+</body>
+</html>
